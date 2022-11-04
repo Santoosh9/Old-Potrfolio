@@ -1,0 +1,219 @@
+  @import url('http://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600 & display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    justify-content: center;
+
+
+
+  }
+
+
+
+
+  .wrapper {
+    display: inline-flex;
+
+
+  }
+
+  .text{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 1rem;
+  }
+
+  .static-tex {
+    color: rgb(23, 30, 250);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 1.2rem;
+  }
+
+
+  
+
+  .dynamic-tex {
+    margin-left: .1rem;
+    height: 100px;
+    line-height: 90px;
+    overflow: hidden;
+
+
+
+
+
+  }
+
+  .click {
+    width: 150px;
+    background: rgb(19, 55, 214);
+    font-size: 23px;
+ border-radius: 21px;
+    cursor: pointer;
+}
+.click:hover {
+  opacity: 0.4;
+  
+    background:rgb(23, 30, 250);
+
+}
+  
+  .dynamic-tex li {
+    list-style: none;
+    color: red;
+    font-size: 1.9rem;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 8s steps(4) infinite;
+
+
+
+  }
+
+  @keyframes slide {
+    100% {
+      top: -360px;
+    }
+
+  }
+
+  .imgs {
+    margin-top: 2.5rem;
+    border-radius: 55%;
+    height: 300px;
+    width: 300px;
+   
+
+  }
+
+
+
+
+  .dynamic-tex li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #abb0f0;
+    overflow: hidden;
+    border-left: 2.5px solid red;
+    animation: typing 2s steps(18) infinite;
+  }
+
+  @keyframes typing {
+    100% {
+      left: 100%;
+      margin: 0 -35px 0 35px;
+    }
+  }
+
+
+  @media all and (max-width:700px) {
+    
+  .wrapper {
+    display: inline-flex;
+
+
+  }
+
+  .text{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 1rem;
+  }
+
+  .static-tex {
+    color: rgb(23, 30, 250);
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 1.2rem;
+  }
+
+
+  
+
+  .dynamic-tex {
+    margin-left: .1rem;
+    height: 100px;
+    line-height: 90px;
+    overflow: hidden;
+
+
+
+
+
+  }
+
+  .click {
+    width: 150px;
+    background: rgb(19, 55, 214);
+    font-size: 23px;
+ border-radius: 21px;
+    cursor: pointer;
+}
+.click:hover {
+  opacity: 0.4;
+  
+    background:rgb(23, 30, 250);
+
+}
+  
+  .dynamic-tex li {
+    list-style: none;
+    color: red;
+    font-size: 1.9rem;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    animation: slide 8s steps(4) infinite;
+
+
+
+  }
+
+  @keyframes slide {
+    100% {
+      top: -360px;
+    }
+
+  }
+
+  .imgs {
+    margin-top: 2.5rem;
+    border-radius: 55%;
+    height: 300px;
+    width: 300px;
+    
+   
+
+  }
+
+
+
+
+  .dynamic-tex li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #abb0f0;
+    overflow: hidden;
+    border-left: 2.5px solid red;
+    animation: typing 2s steps(18) infinite;
+  }
+
+  @keyframes typing {
+    100% {
+      left: 100%;
+      margin: 0 -35px 0 35px;
+    }
+  }
+
+  }
