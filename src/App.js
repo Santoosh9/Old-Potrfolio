@@ -18,10 +18,7 @@ function App() {
     
       </Routes>
 
-      <About />
-      <Projects />
-      <Services />
-      <Contact />
+      
       
     </div>
   );
