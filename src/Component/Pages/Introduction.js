@@ -3,7 +3,7 @@ import "./Introducrion.css"
 
 import cvv from '../../Images/cvv.png'
 import Navbar from '../Navbar'
-
+import { NavLink } from 'react-router-dom';
 
 const Introduction = () => {
 
@@ -27,7 +27,7 @@ const Introduction = () => {
           </ul>
         </div>
 
-        <div><a href='/about'><button className="click">Explore Me!</button></a></div>
+        <div><NavLink to='/about'><button className="click">Explore Me!</button></NavLink></div>
         <br></br>
       </div>
      
